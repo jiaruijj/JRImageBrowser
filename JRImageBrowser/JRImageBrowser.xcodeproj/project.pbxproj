@@ -15,6 +15,26 @@
 		2B43BBD51D5CC81700732C91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B43BBD31D5CC81700732C91 /* LaunchScreen.storyboard */; };
 		2B43BBE01D5CC81700732C91 /* JRImageBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B43BBDF1D5CC81700732C91 /* JRImageBrowserTests.m */; };
 		2B43BBEB1D5CC81700732C91 /* JRImageBrowserUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B43BBEA1D5CC81700732C91 /* JRImageBrowserUITests.m */; };
+		2B4A3A1E1D5CCD8400B70AE0 /* FNBaseAnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4A39F31D5CCD8400B70AE0 /* FNBaseAnimatedTransitioning.m */; };
+		2B4A3A1F1D5CCD8400B70AE0 /* FNFullImageAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4A39F61D5CCD8400B70AE0 /* FNFullImageAnimation.m */; };
+		2B4A3A201D5CCD8400B70AE0 /* FNPresentPageAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4A39F81D5CCD8400B70AE0 /* FNPresentPageAnimation.m */; };
+		2B4A3A211D5CCD8400B70AE0 /* FNCoverVerticalAnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4A39FB1D5CCD8400B70AE0 /* FNCoverVerticalAnimatedTransitioning.m */; };
+		2B4A3A221D5CCD8400B70AE0 /* FNDivideAnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4A39FD1D5CCD8400B70AE0 /* FNDivideAnimatedTransitioning.m */; };
+		2B4A3A231D5CCD8400B70AE0 /* FNDivideSnapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4A39FF1D5CCD8400B70AE0 /* FNDivideSnapshot.m */; };
+		2B4A3A241D5CCD8400B70AE0 /* FNFadeAnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4A3A011D5CCD8400B70AE0 /* FNFadeAnimatedTransitioning.m */; };
+		2B4A3A251D5CCD8400B70AE0 /* FNFlipOverAnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4A3A031D5CCD8400B70AE0 /* FNFlipOverAnimatedTransitioning.m */; };
+		2B4A3A261D5CCD8400B70AE0 /* FNImageAnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4A3A051D5CCD8400B70AE0 /* FNImageAnimatedTransitioning.m */; };
+		2B4A3A271D5CCD8400B70AE0 /* FNResignLeftAnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4A3A071D5CCD8400B70AE0 /* FNResignLeftAnimatedTransitioning.m */; };
+		2B4A3A281D5CCD8400B70AE0 /* FNResignTopAnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4A3A091D5CCD8400B70AE0 /* FNResignTopAnimatedTransitioning.m */; };
+		2B4A3A291D5CCD8400B70AE0 /* FNSnapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4A3A0B1D5CCD8400B70AE0 /* FNSnapshot.m */; };
+		2B4A3A2A1D5CCD8400B70AE0 /* images.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2B4A3A0E1D5CCD8400B70AE0 /* images.bundle */; };
+		2B4A3A2B1D5CCD8400B70AE0 /* FNTransitioningCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4A3A121D5CCD8400B70AE0 /* FNTransitioningCache.m */; };
+		2B4A3A2C1D5CCD8400B70AE0 /* UINavigationController+FNTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4A3A141D5CCD8400B70AE0 /* UINavigationController+FNTransitioning.m */; };
+		2B4A3A2D1D5CCD8400B70AE0 /* UIViewController+FNTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4A3A161D5CCD8400B70AE0 /* UIViewController+FNTransitioning.m */; };
+		2B4A3A2E1D5CCD8400B70AE0 /* FNFullImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4A3A191D5CCD8400B70AE0 /* FNFullImageViewController.m */; };
+		2B4A3A2F1D5CCD8400B70AE0 /* FNFullScreenImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4A3A1B1D5CCD8400B70AE0 /* FNFullScreenImageView.m */; };
+		2B4A3A301D5CCD8400B70AE0 /* FNTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4A3A1D1D5CCD8400B70AE0 /* FNTableViewController.m */; };
+		576BB394AD152A70A8AAEE52 /* libPods-JRImageBrowser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C2D24720FC205E1707B5F0 /* libPods-JRImageBrowser.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +55,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04C2D24720FC205E1707B5F0 /* libPods-JRImageBrowser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JRImageBrowser.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06B595C70E1A84C3E0E42E4F /* Pods-JRImageBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JRImageBrowser.release.xcconfig"; path = "Pods/Target Support Files/Pods-JRImageBrowser/Pods-JRImageBrowser.release.xcconfig"; sourceTree = "<group>"; };
 		2B43BBC21D5CC81700732C91 /* JRImageBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JRImageBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B43BBC61D5CC81700732C91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2B43BBC81D5CC81700732C91 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +73,46 @@
 		2B43BBE61D5CC81700732C91 /* JRImageBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JRImageBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B43BBEA1D5CC81700732C91 /* JRImageBrowserUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRImageBrowserUITests.m; sourceTree = "<group>"; };
 		2B43BBEC1D5CC81700732C91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B4A39F21D5CCD8400B70AE0 /* FNBaseAnimatedTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNBaseAnimatedTransitioning.h; sourceTree = "<group>"; };
+		2B4A39F31D5CCD8400B70AE0 /* FNBaseAnimatedTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNBaseAnimatedTransitioning.m; sourceTree = "<group>"; };
+		2B4A39F51D5CCD8400B70AE0 /* FNFullImageAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNFullImageAnimation.h; sourceTree = "<group>"; };
+		2B4A39F61D5CCD8400B70AE0 /* FNFullImageAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNFullImageAnimation.m; sourceTree = "<group>"; };
+		2B4A39F71D5CCD8400B70AE0 /* FNPresentPageAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNPresentPageAnimation.h; sourceTree = "<group>"; };
+		2B4A39F81D5CCD8400B70AE0 /* FNPresentPageAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNPresentPageAnimation.m; sourceTree = "<group>"; };
+		2B4A39FA1D5CCD8400B70AE0 /* FNCoverVerticalAnimatedTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNCoverVerticalAnimatedTransitioning.h; sourceTree = "<group>"; };
+		2B4A39FB1D5CCD8400B70AE0 /* FNCoverVerticalAnimatedTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNCoverVerticalAnimatedTransitioning.m; sourceTree = "<group>"; };
+		2B4A39FC1D5CCD8400B70AE0 /* FNDivideAnimatedTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNDivideAnimatedTransitioning.h; sourceTree = "<group>"; };
+		2B4A39FD1D5CCD8400B70AE0 /* FNDivideAnimatedTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNDivideAnimatedTransitioning.m; sourceTree = "<group>"; };
+		2B4A39FE1D5CCD8400B70AE0 /* FNDivideSnapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNDivideSnapshot.h; sourceTree = "<group>"; };
+		2B4A39FF1D5CCD8400B70AE0 /* FNDivideSnapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNDivideSnapshot.m; sourceTree = "<group>"; };
+		2B4A3A001D5CCD8400B70AE0 /* FNFadeAnimatedTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNFadeAnimatedTransitioning.h; sourceTree = "<group>"; };
+		2B4A3A011D5CCD8400B70AE0 /* FNFadeAnimatedTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNFadeAnimatedTransitioning.m; sourceTree = "<group>"; };
+		2B4A3A021D5CCD8400B70AE0 /* FNFlipOverAnimatedTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNFlipOverAnimatedTransitioning.h; sourceTree = "<group>"; };
+		2B4A3A031D5CCD8400B70AE0 /* FNFlipOverAnimatedTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNFlipOverAnimatedTransitioning.m; sourceTree = "<group>"; };
+		2B4A3A041D5CCD8400B70AE0 /* FNImageAnimatedTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNImageAnimatedTransitioning.h; sourceTree = "<group>"; };
+		2B4A3A051D5CCD8400B70AE0 /* FNImageAnimatedTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNImageAnimatedTransitioning.m; sourceTree = "<group>"; };
+		2B4A3A061D5CCD8400B70AE0 /* FNResignLeftAnimatedTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNResignLeftAnimatedTransitioning.h; sourceTree = "<group>"; };
+		2B4A3A071D5CCD8400B70AE0 /* FNResignLeftAnimatedTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNResignLeftAnimatedTransitioning.m; sourceTree = "<group>"; };
+		2B4A3A081D5CCD8400B70AE0 /* FNResignTopAnimatedTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNResignTopAnimatedTransitioning.h; sourceTree = "<group>"; };
+		2B4A3A091D5CCD8400B70AE0 /* FNResignTopAnimatedTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNResignTopAnimatedTransitioning.m; sourceTree = "<group>"; };
+		2B4A3A0A1D5CCD8400B70AE0 /* FNSnapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNSnapshot.h; sourceTree = "<group>"; };
+		2B4A3A0B1D5CCD8400B70AE0 /* FNSnapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNSnapshot.m; sourceTree = "<group>"; };
+		2B4A3A0C1D5CCD8400B70AE0 /* FNTransitioningDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNTransitioningDelegate.h; sourceTree = "<group>"; };
+		2B4A3A0E1D5CCD8400B70AE0 /* images.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = images.bundle; sourceTree = "<group>"; };
+		2B4A3A101D5CCD8400B70AE0 /* FNNavigationTransitioningStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNNavigationTransitioningStyle.h; sourceTree = "<group>"; };
+		2B4A3A111D5CCD8400B70AE0 /* FNTransitioningCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNTransitioningCache.h; sourceTree = "<group>"; };
+		2B4A3A121D5CCD8400B70AE0 /* FNTransitioningCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNTransitioningCache.m; sourceTree = "<group>"; };
+		2B4A3A131D5CCD8400B70AE0 /* UINavigationController+FNTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FNTransitioning.h"; sourceTree = "<group>"; };
+		2B4A3A141D5CCD8400B70AE0 /* UINavigationController+FNTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FNTransitioning.m"; sourceTree = "<group>"; };
+		2B4A3A151D5CCD8400B70AE0 /* UIViewController+FNTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+FNTransitioning.h"; sourceTree = "<group>"; };
+		2B4A3A161D5CCD8400B70AE0 /* UIViewController+FNTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+FNTransitioning.m"; sourceTree = "<group>"; };
+		2B4A3A181D5CCD8400B70AE0 /* FNFullImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNFullImageViewController.h; sourceTree = "<group>"; };
+		2B4A3A191D5CCD8400B70AE0 /* FNFullImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNFullImageViewController.m; sourceTree = "<group>"; };
+		2B4A3A1A1D5CCD8400B70AE0 /* FNFullScreenImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNFullScreenImageView.h; sourceTree = "<group>"; };
+		2B4A3A1B1D5CCD8400B70AE0 /* FNFullScreenImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNFullScreenImageView.m; sourceTree = "<group>"; };
+		2B4A3A1C1D5CCD8400B70AE0 /* FNTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNTableViewController.h; sourceTree = "<group>"; };
+		2B4A3A1D1D5CCD8400B70AE0 /* FNTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNTableViewController.m; sourceTree = "<group>"; };
+		A613B43F20697CA46D65AADA /* Pods-JRImageBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JRImageBrowser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JRImageBrowser/Pods-JRImageBrowser.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				576BB394AD152A70A8AAEE52 /* libPods-JRImageBrowser.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +148,8 @@
 				2B43BBDE1D5CC81700732C91 /* JRImageBrowserTests */,
 				2B43BBE91D5CC81700732C91 /* JRImageBrowserUITests */,
 				2B43BBC31D5CC81700732C91 /* Products */,
+				CBABB47C5D454C2382169948 /* Pods */,
+				626FE1CB70F05D65E3A2AEB1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +166,9 @@
 		2B43BBC41D5CC81700732C91 /* JRImageBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				2B4A39F01D5CCD8400B70AE0 /* FNFullImageView */,
+				2B4A3A1C1D5CCD8400B70AE0 /* FNTableViewController.h */,
+				2B4A3A1D1D5CCD8400B70AE0 /* FNTableViewController.m */,
 				2B43BBC81D5CC81700732C91 /* AppDelegate.h */,
 				2B43BBC91D5CC81700732C91 /* AppDelegate.m */,
 				2B43BBCB1D5CC81700732C91 /* ViewController.h */,
@@ -140,6 +208,115 @@
 			path = JRImageBrowserUITests;
 			sourceTree = "<group>";
 		};
+		2B4A39F01D5CCD8400B70AE0 /* FNFullImageView */ = {
+			isa = PBXGroup;
+			children = (
+				2B4A39F11D5CCD8400B70AE0 /* AnimatedTransitionings */,
+				2B4A3A0D1D5CCD8400B70AE0 /* Resources */,
+				2B4A3A0F1D5CCD8400B70AE0 /* Transition */,
+				2B4A3A171D5CCD8400B70AE0 /* Views */,
+			);
+			path = FNFullImageView;
+			sourceTree = "<group>";
+		};
+		2B4A39F11D5CCD8400B70AE0 /* AnimatedTransitionings */ = {
+			isa = PBXGroup;
+			children = (
+				2B4A39F21D5CCD8400B70AE0 /* FNBaseAnimatedTransitioning.h */,
+				2B4A39F31D5CCD8400B70AE0 /* FNBaseAnimatedTransitioning.m */,
+				2B4A39F41D5CCD8400B70AE0 /* Present */,
+				2B4A39F91D5CCD8400B70AE0 /* Push */,
+			);
+			path = AnimatedTransitionings;
+			sourceTree = "<group>";
+		};
+		2B4A39F41D5CCD8400B70AE0 /* Present */ = {
+			isa = PBXGroup;
+			children = (
+				2B4A39F51D5CCD8400B70AE0 /* FNFullImageAnimation.h */,
+				2B4A39F61D5CCD8400B70AE0 /* FNFullImageAnimation.m */,
+				2B4A39F71D5CCD8400B70AE0 /* FNPresentPageAnimation.h */,
+				2B4A39F81D5CCD8400B70AE0 /* FNPresentPageAnimation.m */,
+			);
+			path = Present;
+			sourceTree = "<group>";
+		};
+		2B4A39F91D5CCD8400B70AE0 /* Push */ = {
+			isa = PBXGroup;
+			children = (
+				2B4A39FA1D5CCD8400B70AE0 /* FNCoverVerticalAnimatedTransitioning.h */,
+				2B4A39FB1D5CCD8400B70AE0 /* FNCoverVerticalAnimatedTransitioning.m */,
+				2B4A39FC1D5CCD8400B70AE0 /* FNDivideAnimatedTransitioning.h */,
+				2B4A39FD1D5CCD8400B70AE0 /* FNDivideAnimatedTransitioning.m */,
+				2B4A39FE1D5CCD8400B70AE0 /* FNDivideSnapshot.h */,
+				2B4A39FF1D5CCD8400B70AE0 /* FNDivideSnapshot.m */,
+				2B4A3A001D5CCD8400B70AE0 /* FNFadeAnimatedTransitioning.h */,
+				2B4A3A011D5CCD8400B70AE0 /* FNFadeAnimatedTransitioning.m */,
+				2B4A3A021D5CCD8400B70AE0 /* FNFlipOverAnimatedTransitioning.h */,
+				2B4A3A031D5CCD8400B70AE0 /* FNFlipOverAnimatedTransitioning.m */,
+				2B4A3A041D5CCD8400B70AE0 /* FNImageAnimatedTransitioning.h */,
+				2B4A3A051D5CCD8400B70AE0 /* FNImageAnimatedTransitioning.m */,
+				2B4A3A061D5CCD8400B70AE0 /* FNResignLeftAnimatedTransitioning.h */,
+				2B4A3A071D5CCD8400B70AE0 /* FNResignLeftAnimatedTransitioning.m */,
+				2B4A3A081D5CCD8400B70AE0 /* FNResignTopAnimatedTransitioning.h */,
+				2B4A3A091D5CCD8400B70AE0 /* FNResignTopAnimatedTransitioning.m */,
+				2B4A3A0A1D5CCD8400B70AE0 /* FNSnapshot.h */,
+				2B4A3A0B1D5CCD8400B70AE0 /* FNSnapshot.m */,
+				2B4A3A0C1D5CCD8400B70AE0 /* FNTransitioningDelegate.h */,
+			);
+			path = Push;
+			sourceTree = "<group>";
+		};
+		2B4A3A0D1D5CCD8400B70AE0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2B4A3A0E1D5CCD8400B70AE0 /* images.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2B4A3A0F1D5CCD8400B70AE0 /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				2B4A3A101D5CCD8400B70AE0 /* FNNavigationTransitioningStyle.h */,
+				2B4A3A111D5CCD8400B70AE0 /* FNTransitioningCache.h */,
+				2B4A3A121D5CCD8400B70AE0 /* FNTransitioningCache.m */,
+				2B4A3A131D5CCD8400B70AE0 /* UINavigationController+FNTransitioning.h */,
+				2B4A3A141D5CCD8400B70AE0 /* UINavigationController+FNTransitioning.m */,
+				2B4A3A151D5CCD8400B70AE0 /* UIViewController+FNTransitioning.h */,
+				2B4A3A161D5CCD8400B70AE0 /* UIViewController+FNTransitioning.m */,
+			);
+			path = Transition;
+			sourceTree = "<group>";
+		};
+		2B4A3A171D5CCD8400B70AE0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2B4A3A181D5CCD8400B70AE0 /* FNFullImageViewController.h */,
+				2B4A3A191D5CCD8400B70AE0 /* FNFullImageViewController.m */,
+				2B4A3A1A1D5CCD8400B70AE0 /* FNFullScreenImageView.h */,
+				2B4A3A1B1D5CCD8400B70AE0 /* FNFullScreenImageView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		626FE1CB70F05D65E3A2AEB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04C2D24720FC205E1707B5F0 /* libPods-JRImageBrowser.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBABB47C5D454C2382169948 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A613B43F20697CA46D65AADA /* Pods-JRImageBrowser.debug.xcconfig */,
+				06B595C70E1A84C3E0E42E4F /* Pods-JRImageBrowser.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +324,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B43BBEF1D5CC81700732C91 /* Build configuration list for PBXNativeTarget "JRImageBrowser" */;
 			buildPhases = (
+				B9CF9A569D1ABC588946827A /* [CP] Check Pods Manifest.lock */,
 				2B43BBBE1D5CC81700732C91 /* Sources */,
 				2B43BBBF1D5CC81700732C91 /* Frameworks */,
 				2B43BBC01D5CC81700732C91 /* Resources */,
+				05CFB9C03DF80FCC75540E4B /* [CP] Embed Pods Frameworks */,
+				42EBF1098E8E9512782EC48D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,6 +426,7 @@
 				2B43BBD51D5CC81700732C91 /* LaunchScreen.storyboard in Resources */,
 				2B43BBD21D5CC81700732C91 /* Assets.xcassets in Resources */,
 				2B43BBD01D5CC81700732C91 /* Main.storyboard in Resources */,
+				2B4A3A2A1D5CCD8400B70AE0 /* images.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,14 +446,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05CFB9C03DF80FCC75540E4B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JRImageBrowser/Pods-JRImageBrowser-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42EBF1098E8E9512782EC48D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JRImageBrowser/Pods-JRImageBrowser-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9CF9A569D1ABC588946827A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2B43BBBE1D5CC81700732C91 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B4A3A241D5CCD8400B70AE0 /* FNFadeAnimatedTransitioning.m in Sources */,
+				2B4A3A2C1D5CCD8400B70AE0 /* UINavigationController+FNTransitioning.m in Sources */,
+				2B4A3A291D5CCD8400B70AE0 /* FNSnapshot.m in Sources */,
+				2B4A3A2F1D5CCD8400B70AE0 /* FNFullScreenImageView.m in Sources */,
+				2B4A3A2B1D5CCD8400B70AE0 /* FNTransitioningCache.m in Sources */,
+				2B4A3A2E1D5CCD8400B70AE0 /* FNFullImageViewController.m in Sources */,
 				2B43BBCD1D5CC81700732C91 /* ViewController.m in Sources */,
 				2B43BBCA1D5CC81700732C91 /* AppDelegate.m in Sources */,
+				2B4A3A2D1D5CCD8400B70AE0 /* UIViewController+FNTransitioning.m in Sources */,
 				2B43BBC71D5CC81700732C91 /* main.m in Sources */,
+				2B4A3A251D5CCD8400B70AE0 /* FNFlipOverAnimatedTransitioning.m in Sources */,
+				2B4A3A301D5CCD8400B70AE0 /* FNTableViewController.m in Sources */,
+				2B4A3A271D5CCD8400B70AE0 /* FNResignLeftAnimatedTransitioning.m in Sources */,
+				2B4A3A281D5CCD8400B70AE0 /* FNResignTopAnimatedTransitioning.m in Sources */,
+				2B4A3A201D5CCD8400B70AE0 /* FNPresentPageAnimation.m in Sources */,
+				2B4A3A211D5CCD8400B70AE0 /* FNCoverVerticalAnimatedTransitioning.m in Sources */,
+				2B4A3A1F1D5CCD8400B70AE0 /* FNFullImageAnimation.m in Sources */,
+				2B4A3A261D5CCD8400B70AE0 /* FNImageAnimatedTransitioning.m in Sources */,
+				2B4A3A231D5CCD8400B70AE0 /* FNDivideSnapshot.m in Sources */,
+				2B4A3A1E1D5CCD8400B70AE0 /* FNBaseAnimatedTransitioning.m in Sources */,
+				2B4A3A221D5CCD8400B70AE0 /* FNDivideAnimatedTransitioning.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +660,7 @@
 		};
 		2B43BBF01D5CC81700732C91 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A613B43F20697CA46D65AADA /* Pods-JRImageBrowser.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JRImageBrowser/Info.plist;
@@ -424,6 +672,7 @@
 		};
 		2B43BBF11D5CC81700732C91 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06B595C70E1A84C3E0E42E4F /* Pods-JRImageBrowser.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JRImageBrowser/Info.plist;
@@ -498,6 +747,7 @@
 				2B43BBF11D5CC81700732C91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B43BBF21D5CC81700732C91 /* Build configuration list for PBXNativeTarget "JRImageBrowserTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +756,7 @@
 				2B43BBF41D5CC81700732C91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B43BBF51D5CC81700732C91 /* Build configuration list for PBXNativeTarget "JRImageBrowserUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +765,7 @@
 				2B43BBF71D5CC81700732C91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

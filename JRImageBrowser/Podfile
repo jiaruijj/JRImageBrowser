@@ -1,0 +1,13 @@
+platform :ios, '8.0'
+
+def commonPods
+
+pod 'SDWebImage'
+
+end
+
+target ‘JRImageBrowser’ do
+
+commonPods
+
+end
