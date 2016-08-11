@@ -53,7 +53,7 @@
     if (indexPath.row == 6) {
         FNFullScreenImage *fullImage = self.photoArray[0];
         NSURL *url = [NSURL URLWithString:fullImage.imageURLString];
-        [cell.imageView sd_setImageWithURL:url placeholderImage:[UIImage imageNamed:@"Rose"]];
+        [cell.imageView sd_setImageWithURL:url placeholderImage:[UIImage imageNamed:[self imageBundleUrlString:@"icon_imaging"]]];
         _imageView = cell.imageView;
     }
     cell.textLabel.text = self.dataArray[indexPath.section][indexPath.row];
