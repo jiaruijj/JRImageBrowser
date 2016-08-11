@@ -32,6 +32,7 @@
 @property (nonatomic,assign)   BOOL hiddenNavigationBar;//是否隐藏导航栏  push为NO  present YES
 @property (nonatomic,strong)   UIButton *rightButton;
 
+
 @end
 
 @implementation FNFullImageViewController
